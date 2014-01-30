@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Limitations.js">
+    <Files>
+      <File FileName="Assets\grid\grid.js" Line="17" Column="53" />
+      <File FileName="Assets\grid\placerPannaux.js" Line="45" Column="51" />
+      <File FileName="Assets\varGlobal.js" Line="9" Column="34" />
+      <File FileName="Assets\CameraScript.js" Line="102" Column="20" />
+      <File FileName="Assets\GUI_create.js" Line="63" Column="72" />
+      <File FileName="Assets\Scripts\Voitures.js" Line="25" Column="2" />
+      <File FileName="Assets\Scripts\Voiture.js" Line="3" Column="5" />
+      <File FileName="Assets\Scripts\Limitations.js" Line="9" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

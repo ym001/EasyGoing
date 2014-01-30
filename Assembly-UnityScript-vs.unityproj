@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{A369A4B8-4F65-684B-1572-376CDE052566}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Autres\CameraScript.js" />
+     <Compile Include="Assets\Scripts\Autres\GUI_create.js" />
+     <Compile Include="Assets\Scripts\Autres\LimitTrigger.js" />
+     <Compile Include="Assets\Scripts\Autres\ManageGame.js" />
+     <Compile Include="Assets\Scripts\Autres\Menu.js" />
+     <Compile Include="Assets\Scripts\Autres\Objectifs_mission1.js" />
+     <Compile Include="Assets\Scripts\Autres\Scenario.js" />
+     <Compile Include="Assets\Scripts\Autres\Title_screen.js" />
+     <Compile Include="Assets\Scripts\Autres\dragAndDrop.js" />
+     <Compile Include="Assets\Scripts\Autres\limiteTerrain.js" />
+     <Compile Include="Assets\Scripts\Autres\varGlobal.js" />
+     <Compile Include="Assets\Scripts\Grille\grid.js" />
+     <Compile Include="Assets\Scripts\Grille\placerPannaux.js" />
+     <Compile Include="Assets\Scripts\Hud\HUD.js" />
+     <Compile Include="Assets\Scripts\Routes\Croisements.js" />
+     <Compile Include="Assets\Scripts\Routes\Croisements_T.js" />
+     <Compile Include="Assets\Scripts\Routes\Virages extérieurs.js" />
+     <Compile Include="Assets\Scripts\Routes\Virages intérieurs.js" />
+     <Compile Include="Assets\Scripts\Signalisation\CroisementTrigger.js" />
+     <Compile Include="Assets\Scripts\Signalisation\Limitations.js" />
+     <Compile Include="Assets\Scripts\Signalisation\Red_lightTrigger.js" />
+     <Compile Include="Assets\Scripts\Signalisation\StopTrigger.js" />
+     <Compile Include="Assets\Scripts\Signalisation\propertieRedLight.js" />
+     <Compile Include="Assets\Scripts\Signalisation\propertieSignalisation.js" />
+     <Compile Include="Assets\Scripts\Spawner.js" />
+     <Compile Include="Assets\Scripts\Voitures\VoitureProperties.js" />
+     <Compile Include="Assets\Scripts\Voitures\VoitureTrigger.js" />
+     <Compile Include="Assets\Scripts\Voitures\Voitures.js" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Importés\Voitures\Sedan NS\!ReadmeNS.txt" />
+     <None Include="Assets\Importés\Voitures\SUV CB\!ReadmeCB.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Importés\Voitures\Pickup FR\!ReadmeFR.txt" />
+     <None Include="Assets\Importés\Voitures\SUV LD\!ReadmeLD.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{22E4660B-C5A3-57D8-6CFC-6A822A55865F}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

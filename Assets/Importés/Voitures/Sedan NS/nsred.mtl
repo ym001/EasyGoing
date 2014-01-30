@@ -1,0 +1,55 @@
+#
+# Wavefront material file: d:\projects\filmburn\cars\01-complete\0final\1disk\3dmodels\nissansentra\nsbla.mtl
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 02/26/2003 17:23:25
+#
+# Bounding box of geometry = (-34.1885,7.62939e-006,-84.8173) to (34.1885,55.5542,84.8173).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+
+newmtl NSRed
+	Ns 3
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0.25 0.25 0.25
+	Ka 0 0 0
+	map_Kd nsredd.jpg
+	map_bump -bm 0.403125 nsb.jpg
+	map_refl -type sphere rflbody.jpg
+
+newmtl NSTire
+	Ns 3
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0.15 0.15 0.15
+	Ka 0 0 0
+	map_Kd nstired.jpg
+	map_bump -bm 0.403125 nstireb.jpg
+	map_refl -type sphere rflbody.jpg
+
+newmtl NSGlass
+	Ns 3
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0.5 0.5 0.5
+	Ka 0 0 0
+	map_d nsglass.jpg
+	map_refl -type sphere rflglass.jpg
+
+newmtl NSInterior
+	Ns 3
+	d 1
+	illum 2
+	Kd 0.545098 0.545098 0.521569
+	Ks 0 0 0
+	Ka 0.321569 0.321569 0.270588

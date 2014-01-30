@@ -1,0 +1,65 @@
+#
+# Wavefront material file: d:\projects\filmburn\cars\01-complete\0final\1disk\3dmodels\fordranger\frbla.mtl
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 02/26/2003 10:32:32
+#
+# Bounding box of geometry = (-36.8181,-9.53674e-007,-92.0909) to (36.8181,64.2265,92.0909).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+
+newmtl FRBed
+	Ns 26
+	d 1
+	illum 2
+	Kd 0.0901961 0.0901961 0.0901961
+	Ks 0.558 0.558 0.558
+	Ka 0 0 0
+	map_bump -bm 0.8 frbedb.jpg
+
+newmtl FRBlue
+	Ns 3
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0.25 0.25 0.25
+	Ka 0 0 0
+	map_Kd frblud.jpg
+	map_bump -bm 0.403125 frb.jpg
+	map_refl -type sphere rflbody.jpg
+
+newmtl FRGlass
+	Ns 3
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0.5 0.5 0.5
+	Ka 0 0 0
+	map_d frglass.jpg
+	map_refl -type sphere rflglass.jpg
+
+newmtl FRInterior
+	Ns 3
+	d 1
+	illum 2
+	Kd 0.0509804 0.0509804 0.0509804
+	Ks 0 0 0
+	Ka 0.0509804 0.0509804 0.0509804
+
+newmtl FRTire
+	Ns 3
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0.15 0.15 0.15
+	Ka 0 0 0
+	map_Kd frtired.jpg
+	map_bump -bm 0.403125 frtireb.jpg
+	map_refl -type sphere rflbody.jpg
+

@@ -1,0 +1,55 @@
+#
+# Wavefront material file: d:\projects\filmburn\cars\01-complete\0final\1disk\3dmodels\landroverdiscovery\ldwhi.mtl
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 02/26/2003 17:22:47
+#
+# Bounding box of geometry = (-38.0701,1.90735e-006,-88.3919) to (38.0701,79.6938,88.3919).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+
+newmtl LDGlass
+	Ns 3
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0.5 0.5 0.5
+	Ka 0 0 0
+	map_d ldglass.jpg
+	map_refl -type sphere rflglass.jpg
+
+newmtl LDInterior
+	Ns 3
+	d 1
+	illum 2
+	Kd 0.545098 0.545098 0.521569
+	Ks 0 0 0
+	Ka 0.321569 0.321569 0.270588
+
+newmtl LDTire
+	Ns 3
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0.15 0.15 0.15
+	Ka 0 0 0
+	map_Kd ldtired.jpg
+	map_bump -bm 0.403125 ldtireb.jpg
+	map_refl -type sphere rflbody.jpg
+	
+newmtl LDBlack
+	Ns 3
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0.25 0.25 0.25
+	Ka 0 0 0
+	map_Kd ldblad.jpg
+	map_bump -bm 0.403125 ldb.jpg
+	map_refl -type sphere rflbody.jpg
